@@ -26,70 +26,58 @@ p {
     line-height: 1.6;
 }
 
-nav {
-    margin-top: 20px;
+nav{
+margin-top: 20px;
 }
-
 nav a {
-    color: aliceblue;
-    text-decoration: none;
-    background-color:rgb(119, 0, 255);
-    padding: 10px 15px;
-    border-radius: 8px;
-    margin: 5px;
-    display: inline-block;
-
+color: rgb(106, 145, 255);
+text-decoration: none;
+background-color: #556bc3;
+padding: 10px 15px;
+border-radius: 8px;
+margin: 5px;
+display: inline-block
 }
-
-nav a:hover {
-    background-color: rgb(255, 127, 238);
+nav a:hover{
+background-color: #9aa9fd;
 }
-
-main {
-    width: 80%;
-    margin: auto;
-
+main{
+width: 80%;
+margin: auto;
 }
-
-section {
-    background-color: rgb(0, 0, 0);
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 12px;
+section{
+background-color: white;
+margin: 20px;
+padding: 20px;
+border-radius: 12px;
 }
-
-img {
-    width: 100%;
-    max-width: 600px;
-    display: block;
-    margin: auto;
-    border-radius: 12px;
+img{
+width: 100%;
+max-width: 600px;
+display: block;
+margin: auto;
+border-radius: 12px;
 }
-
-figcaption {
-    text-align: center;
-    font-family: 14px;
-    color: blueviolet;
-    margin-top: 8px;
+figcaption{
+text-align: center;
+font-family: 14px;
+color: #000000;
+margin-top: 8px;
 }
-
-.card {
-    background-color: beige;
-    padding: 15px 0;
-    margin: 15px;
-    border-left: 6px solid rgb(0, 0, 0);
-    border-radius: 10px;
-
+card{
+background-color: #475575f8;
+padding: 15px;
+margin: 15px 0;
+border-left: 6px solid #c6cefa;
+border-radius: 10px;
 }
-
-.card {
-    margin-top: 0;
+card h3 {
+margin-top: 0;
 }
-
 footer {
-    background-color: rgb(255, 205, 244);
-    color: rgb(214, 127, 255);
-    text-align: center;
-    padding: 20px;
-    margin-top: 30px;
+background-color: #222222;
+color: rgb(212, 206, 250);
+text-align: center;
+padding: 20px;
+margin-top: 30px;
 }
