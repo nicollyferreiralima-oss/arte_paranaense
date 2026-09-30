@@ -1,13 +1,26 @@
+:root{
+     --cor-fundo:rgb(226, 43, 195);
+     --cor-texto:rgb(63, 20, 220);
+     --cor-principal: rgb(121, 100, 237);
+     --cor-secundaria: #9aa9fd;
+     --cor-card:;
+     --cor-superficial: white;
+     --cor-rodape:;
+     --cor-clara:#556bc3;
+     --cor-legendada:;
+}
+
+
 body {
-    background-color: rgb(226, 43, 195);
-    color: rgb(63, 20, 220);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     font-family: arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: rgb(255, 0, 255);
-    color: beige;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -18,9 +31,8 @@ h1 {
 }
 
 h2 {
-    color: rgb(121, 100, 237);
+    color: var(--cor-principal);
 }
-
 p {
     font-size: 18px;
     line-height: 1.6;
@@ -31,22 +43,22 @@ margin-top: 20px;
 }
 nav a {
 color: rgb(106, 145, 255);
-text-decoration: none;
-background-color: #556bc3;
+text-decoration: var(--cor-secundaria);
+background-color: var(--cor-clara);
 padding: 10px 15px;
 border-radius: 8px;
 margin: 5px;
 display: inline-block
 }
 nav a:hover{
-background-color: #9aa9fd;
+background-color: var(--cor-secundaria);
 }
 main{
 width: 80%;
 margin: auto;
 }
 section{
-background-color: white;
+background-color: var(--cor-superficial);
 margin: 20px;
 padding: 20px;
 border-radius: 12px;
