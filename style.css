@@ -1,5 +1,5 @@
-:root{
-     --cor-fundo:rgb(226, 43, 195);
+/*
+:root{--cor-fundo:rgb(226, 43, 195);
      --cor-texto:rgb(63, 20, 220);
      --cor-principal: rgb(121, 100, 237);
      --cor-secundaria: #9aa9fd;
@@ -8,7 +8,9 @@
      --cor-rodape:;
      --cor-clara:#556bc3;
      --cor-legendada:;
+     
 }
+     */
 
 
 body {
