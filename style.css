@@ -13,27 +13,23 @@
      */
 
 
-body {
-    background-color: var(--cor-fundo);
-    color: var(--cor-texto);
-    font-family: arial, sans-serif;
+body{
+    background-color: #b8c3f5;
+    color: #060F33;
+    font-family: Arial, sans-serif;
     margin: 0;
 }
-
-header {
-    background-color: var(--cor-principal);
-    color: var(--cor-clara);
+header{
+    background-color: #9cadf1;
+    color: #0D1C54;
     text-align: center;
     padding: 30px;
 }
-
 h1 {
     font-size: 36px;
-
 }
-
 h2 {
-    color: var(--cor-principal);
+    color:#b0bffc;
 }
 p {
     font-size: 18px;
@@ -41,59 +37,59 @@ p {
 }
 
 nav{
-margin-top: 20px;
+    margin-top: 20px;
 }
 nav a {
-color: rgb(106, 145, 255);
-text-decoration: var(--cor-secundaria);
-background-color: var(--cor-clara);
-padding: 10px 15px;
-border-radius: 8px;
-margin: 5px;
-display: inline-block
+    color: rgb(106, 145, 255);
+    text-decoration: none;
+    background-color: #556bc3;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block
 }
 nav a:hover{
-background-color: var(--cor-secundaria);
+    background-color: #9aa9fd;
 }
 main{
-width: 80%;
-margin: auto;
+    width: 80%;
+    margin: auto;
 }
 section{
-background-color: var(--cor-superficial);
-margin: 20px;
-padding: 20px;
-border-radius: 12px;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
 }
 img{
-width: 100%;
-max-width: 600px;
-display: block;
-margin: auto;
-border-radius: 12px;
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
 }
 figcaption{
-text-align: center;
-font-family: 14px;
-color: #000000;
-margin-top: 8px;
+    text-align: center;
+    font-family: 14px;
+    color: #000000;
+    margin-top: 8px;
 }
 card{
-background-color: #475575f8;
-padding: 15px;
-margin: 15px 0;
-border-left: 6px solid #c6cefa;
-border-radius: 10px;
+    background-color: #475575f8;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 6px solid #c6cefa;
+    border-radius: 10px;
 }
 card h3 {
-margin-top: 0;
+    margin-top: 0;
 }
 footer {
-background-color: #222222;
-color: rgb(212, 206, 250);
-text-align: center;
-padding: 20px;
-margin-top: 30px;
+    background-color: #222222;
+    color: rgb(212, 206, 250);
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
 }
 button{
     background-color: #9cadf1;
